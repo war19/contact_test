@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title> Contact_MMM </title>
+    
+    <meta name="description" content=" ********* ">
+    <meta name="keywords" content="">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/20211120_042853.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+
+
+    <!--fntaswsm-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- CSS Files For Plugin -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/YTPlayer.css" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  
+  <body class="gallerybody" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
+    
+
+
+
+
+        <!-- Start Contact -->
+        <section id="contact" class="dark-grn p-top-80 p-bottom-80">
+            <div class="container">
+                <div class="row">
+    
+                    <!-- Section Title -->
+                    <div class="section-title text-center m-bottom-30">
+                        <h2 class="white-color wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s"> যোগাযোগ </h2>
+                        <div class="divider-center-small divider-white wow zoomIn" data-wow-duration="1s" data-wow-delay="0.6s"></div>
+                        <p class="section-subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">আপনাদের মতামত আমাদের কাছে অত্যন্ত গুরুত্বপূর্ণ! </p>
+                    </div>
+    
+                    <!-- === Contact Form === -->
+                    <div class="col-md-7 col-sm-7 p-bottom-30">
+                        <div class="contact-form row">
+    
+                            <form name="ajax-form" id="ajax-form" action="contact.php" method="post">
+                                <div class="col-sm-6 contact-form-item wow zoomIn">
+                                    <input name="name" id="name" type="text" placeholder="নাম: *"/>
+                                    <span class="error" id="err-name">please enter name</span>
+                                </div>
+                                <div class="col-sm-6 contact-form-item wow zoomIn">
+                                    <input name="email" id="email" type="text" placeholder="ই-মেইল: *"/> 
+                                    <span class="error" id="err-email">please enter e-mail</span>
+                                    <span class="error" id="err-emailvld">e-mail is not a valid format</span>
+                                </div>
+                                <div class="col-sm-12 contact-form-item wow zoomIn">
+                                    <textarea name="message" id="message" placeholder="মেসেজ লিখুন..."></textarea>
+                                </div>
+                                <div class="col-sm-12 contact-form-item">
+                                    <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en">submit</button>                
+                                </div>
+                                <div class="clear"></div>   
+                                <div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
+                                <div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
+                                <div class="error" id="err-state"></div>
+                            </form> 
+                                        
+                            <div class="clearfix"></div>
+                            <div id="ajaxsuccess">Successfully sent!!</div>
+                            <div class="clear"></div>
+    
+                        </div> <!-- /.contacts-form & inner row -->
+                    </div> <!-- /.col -->
+    
+                    <!-- === Contact Information === -->
+                    <div class="col-md-5 col-sm-5">
+                        <address class="contact-info">
+    
+                            <!-- === Location === -->
+                            <div class="m-top-20 wow slideInRight">
+                                <div class="contact-info-icon">
+                                    <i class="fa fa-location-arrow"></i>
+                                </div>
+                                <div class="contact-info-title">
+                                    Address:
+                                </div>
+                                <div class="contact-info-text">
+                                    Dhaka, Bangladesh
+                                </div>
+                            </div>
+    
+                            <!-- === Phone === -->
+                            <div class="m-top-20 wow slideInRight">
+                                <div class="contact-info-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="contact-info-title">
+                                    Phone number:
+                                </div>
+                                <div class="contact-info-text">
+                                    +1-000-1111-3333
+                                </div>
+                            </div>
+    
+                            <!-- === Mail === -->
+                            <div class="m-top-20 wow slideInRight">
+                                <div class="contact-info-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="contact-info-title">
+                                    Email:
+                                </div>
+                                <div class="contact-info-text">
+                                    *****@gmail.com
+                                </div>
+                            </div>
+    
+                        </address>
+                    </div> <!-- /.col -->
+    
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section>
+        <!-- End Contact -->
+
+    
+    <!-- jQuery -->
+    <script src="jquery.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="bootstrap.min.js"></script>
+    
+
+    <!-- Contact Form -->
+    <script src="contact.js"></script>
+
+    <script src="contact.php"></script>
+    
+    <!-- Custom Plugin -->
+    <script src="custom.js"></script>
+
+
+    <!-- box icon-->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    
+  </body>
+</html>
